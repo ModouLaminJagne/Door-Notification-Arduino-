@@ -1,4 +1,5 @@
 # Door-Notification-Arduino-
+
 A system that detects the presence of a person in the room and displays a notification "Room Occupied" on a screen.
 
 ## System Architecture
@@ -49,7 +50,7 @@ This system detects the presence of a person in a room and displays a "Room Occu
 
 ## Text-Based Architecture Diagram
 
-```
+```arduino
 +--------------------+         +-------------------+         +-------------------+
 | Person Detection   |         |   Microcontroller |         |   LED Display     |
 | Sensor (PIR/etc.)  +-------->+   (Arduino/etc.)  +-------->+   ("Room Occupied")|
